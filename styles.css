@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+}
+
+h1 {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.quick-btn {
+    background-color: #f00;
+    color: #fff;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.quick-btn:hover {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+.jollibee-chat-box {
+    height: 300px;
+    width: 100%;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ffcc00;
+}
+
+.btn-warning {
+    background-color: #ffcc00;
+    color: #000;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn-warning:hover {
+    background-color: #f00;
+    color: #fff;
+}
+
+.modal-footer .btn-danger {
+    background-color: #f00;
+    border: none;
+}
+
+.modal-footer .btn-secondary {
+    background-color: #6c757d;
+}
+
+.user-message, .bot-message {
+    margin: 10px 0;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+
+.user-message {
+    text-align: right;
+    background-color: #ffcc33;
+    color: #333;
+    border: 1px solid #ff2e24;
+}
+
+.bot-message {
+    text-align: left;
+    background-color: #ff2e24;
+    color: white;
+    border: 1px solid #ffcc33;
+}
+
+.input-group .form-control {
+    border: 2px solid #ffcc33;
+    border-right: none;
+}
+
+.input-group .form-control:focus {
+    box-shadow: none;
+    border-color: #ff2e24;
+}
+
+.jollibee-btn {
+    background-color: #ff2e24;
+    color: white;
+    border: 2px solid #ffcc33;
+    font-weight: bold;
+}
+
+.jollibee-btn:hover {
+    background-color: #ffcc33;
+    color: #ff2e24;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+    }
+}
