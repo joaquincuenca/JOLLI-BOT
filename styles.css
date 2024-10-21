@@ -105,3 +105,16 @@ h1 {
         background-size: contain;
     }
 }
+
+.footer {
+    background-color: #ffcc00; /* Jollibee Yellow */
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-eme{
+    color: rgb(3, 3, 3);
+    font-weight: normal;
+}
